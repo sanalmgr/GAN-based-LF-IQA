@@ -6,7 +6,7 @@ maps to obtain the LFI feature vectors and 2) perform a regression using a Rando
 Paper can be found [HERE](https://www.frontiersin.org/articles/10.3389/frsip.2022.815058/full). 
 
 ## Code:
-- The code in file ssim_and_ab_pair.py first generates SSIM error maps and then creates AB pair using error maps and corresponding distorted images of [CocoStuff](https://github.com/nightrome/cocostuff). 
+- The code in file `ssim_and_ab_pair.py` first generates SSIM error maps and then creates AB pair using error maps and corresponding distorted images of [CocoStuff](https://github.com/nightrome/cocostuff). 
 - GAN: [pix-to-pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 - Augmentation Library: [Albumentation](https://albumentations.ai/)
 
